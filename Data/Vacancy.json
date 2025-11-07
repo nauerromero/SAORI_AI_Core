@@ -1,0 +1,98 @@
+[
+  {
+    "_metadata": {
+      "description": "Job vacancy database for TRS Engine matching system",
+      "last_updated": "2025-11-05",
+      "total_vacancies": 5,
+      "source": "LinkedIn and job boards"
+    }
+  },
+  {
+    "title": "Backend Node + RoR Developer",
+    "company": "FullStack Labs",
+    "modality": "Remote",
+    "zone": "Global",
+    "location": [
+      "New York, USA",
+      "London, UK",
+      "Singapore"
+    ],
+    "level": "Senior",
+    "stack": [
+      "Node.js",
+      "Ruby on Rails",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "urgency": "high",
+    "url": "https://do.linkedin.com/jobs/view/backend-node-%2B-ror-developer-remote-latin-america-at-fullstack-labs-4314836976"
+  },
+  {
+    "title": "Junior Data Engineer",
+    "company": "BairesDev",
+    "modality": "Remote",
+    "zone": "Global",
+    "location": [
+      "New York, USA",
+      "London, UK",
+      "Singapore"
+    ],
+    "level": "Junior",
+    "stack": [
+      "SQL",
+      "Python",
+      "ETL",
+      "Git"
+    ],
+    "urgency": "medium",
+    "url": "https://example.com/jobs/view/junior-data-engineer-remote-at-bairesdev-4319550107"
+  },
+  {
+    "title": "Remote Administrative Assistant",
+    "company": "Advensus",
+    "modality": "Remote",
+    "zone": "Santo Domingo",
+    "location": "Santo Domingo, Dominican Republic",
+    "level": "Junior",
+    "stack": [
+      "Excel",
+      "Outlook",
+      "Teams",
+      "Recruitment"
+    ],
+    "urgency": "low",
+    "url": "https://do.bebee.com/job/7c421a43e254c5e8042799e8f0955940"
+  },
+  {
+    "title": "Operations Coordinator",
+    "company": "Global Solutions Inc",
+    "modality": "Remote",
+    "zone": "US",
+    "location": "New York, USA",
+    "level": "Mid",
+    "stack": [
+      "Excel",
+      "Project Management",
+      "Data Analysis",
+      "Communication"
+    ],
+    "urgency": "medium",
+    "url": "https://example.com/jobs/operations-coordinator"
+  },
+  {
+    "title": "Executive Assistant",
+    "company": "Caribbean Enterprises",
+    "modality": "Hybrid",
+    "zone": "Santo Domingo",
+    "location": "Santo Domingo, Dominican Republic",
+    "level": "Senior",
+    "stack": [
+      "Excel",
+      "PowerPoint",
+      "Calendar Management",
+      "Bilingual"
+    ],
+    "urgency": "high",
+    "url": "https://example.com/jobs/executive-assistant-caribbean"
+  }
+]

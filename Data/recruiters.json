@@ -1,0 +1,109 @@
+[
+  {
+    "id": "R001",
+    "name": "Carla Méndez",
+    "specialties": [
+      "tech",
+      "data",
+      "backend",
+      "cloud"
+    ],
+    "regions": [
+      "LATAM",
+      "US",
+      "Remote"
+    ],
+    "active_profiles": 2,
+    "email": "carla.mendez@empresa.com",
+    "location": "Bogota, Colombia"
+  },
+  {
+    "id": "R002",
+    "name": "Javier Torres",
+    "specialties": [
+      "marketing",
+      "design",
+      "content",
+      "product"
+    ],
+    "regions": [
+      "EU",
+      "LATAM",
+      "Remote"
+    ],
+    "active_profiles": 1,
+    "email": "javier.torres@empresa.com",
+    "location": "Madrid, Spain"
+  },
+  {
+    "id": "R003",
+    "name": "Lucía Fernández",
+    "specialties": [
+      "operations",
+      "finance",
+      "admin",
+      "support"
+    ],
+    "regions": [
+      "US",
+      "EU",
+      "LATAM"
+    ],
+    "active_profiles": 1,
+    "email": "lucia.fernandez@empresa.com",
+    "location": "New York, USA"
+  },
+  {
+    "id": "R004",
+    "name": "Miguel Rodríguez",
+    "specialties": [
+      "tech",
+      "backend",
+      "data",
+      "devops"
+    ],
+    "regions": [
+      "US",
+      "LATAM",
+      "Remote"
+    ],
+    "active_profiles": 0,
+    "email": "miguel.rodriguez@empresa.com",
+    "location": "Miami, USA"
+  },
+  {
+    "id": "R005",
+    "name": "Patricia Silva",
+    "specialties": [
+      "admin",
+      "support",
+      "operations",
+      "finance"
+    ],
+    "regions": [
+      "LATAM",
+      "Remote"
+    ],
+    "active_profiles": 0,
+    "email": "patricia.silva@empresa.com",
+    "location": "Santo Domingo, Dominican Republic"
+  },
+  {
+    "id": "R006",
+    "name": "Roberto Chen",
+    "specialties": [
+      "tech",
+      "frontend",
+      "design",
+      "product"
+    ],
+    "regions": [
+      "LATAM",
+      "US",
+      "Remote"
+    ],
+    "active_profiles": 1,
+    "email": "roberto.chen@empresa.com",
+    "location": "Lima, Peru"
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Luis",
+    "stack": [
+      "Docker",
+      "C#",
+      "Node.js"
+    ],
+    "experience_years": 3,
+    "emotional_state": "Neutral",
+    "preferred_modality": "Hybrid",
+    "zone": "Central",
+    "location": "Bogota, Colombia"
+  },
+  {
+    "name": "Camila",
+    "stack": [
+      "Node.js",
+      "AWS",
+      "JavaScript"
+    ],
+    "experience_years": 7,
+    "emotional_state": "Positive",
+    "preferred_modality": "Remote",
+    "zone": "North",
+    "location": "Santo Domingo, Dominican Republic"
+  },
+  {
+    "name": "Jorge",
+    "stack": [
+      "Docker",
+      "TensorFlow",
+      "React"
+    ],
+    "experience_years": 2,
+    "emotional_state": "Neutral",
+    "preferred_modality": "Hybrid",
+    "zone": "North",
+    "location": "Santo Domingo, Dominican Republic"
+  },
+  {
+    "name": "Ana",
+    "stack": [
+      "SQL",
+      "JavaScript",
+      "Docker"
+    ],
+    "experience_years": 3,
+    "emotional_state": "Positive",
+    "preferred_modality": "On-site",
+    "zone": "North",
+    "location": "Santo Domingo, Dominican Republic"
+  },
+  {
+    "name": "Mateo",
+    "stack": [
+      "React",
+      "Node.js",
+      "Go"
+    ],
+    "experience_years": 4,
+    "emotional_state": "Negative",
+    "preferred_modality": "Remote",
+    "zone": "South",
+    "location": "Buenos Aires, Argentina"
+  },
+  {
+    "name": "Valentina",
+    "stack": [
+      "Go",
+      "JavaScript",
+      "SQL"
+    ],
+    "experience_years": 2,
+    "emotional_state": "Neutral",
+    "preferred_modality": "On-site",
+    "zone": "East",
+    "location": "Lima, Peru"
+  },
+  {
+    "name": "Carlos",
+    "stack": [
+      "Go",
+      "C#",
+      "React"
+    ],
+    "experience_years": 3,
+    "emotional_state": "Positive",
+    "preferred_modality": "On-site",
+    "zone": "Central",
+    "location": "Bogota, Colombia"
+  },
+  {
+    "name": "Sofia",
+    "stack": [
+      "TensorFlow",
+      "React",
+      "JavaScript"
+    ],
+    "experience_years": 5,
+    "emotional_state": "Positive",
+    "preferred_modality": "On-site",
+    "zone": "East",
+    "location": "Lima, Peru"
+  },
+  {
+    "name": "Diego",
+    "stack": [
+      "TensorFlow",
+      "Docker",
+      "Python"
+    ],
+    "experience_years": 5,
+    "emotional_state": "Negative",
+    "preferred_modality": "On-site",
+    "zone": "South",
+    "location": "Buenos Aires, Argentina"
+  },
+  {
+    "name": "Laura",
+    "stack": [
+      "AWS",
+      "Python",
+      "C#"
+    ],
+    "experience_years": 3,
+    "emotional_state": "Positive",
+    "preferred_modality": "Hybrid",
+    "zone": "North",
+    "location": "Santo Domingo, Dominican Republic"
+  },
+  {
+    "name": "María García",
+    "stack": [
+      "Excel",
+      "Outlook",
+      "Teams",
+      "PowerPoint"
+    ],
+    "experience_years": 4,
+    "emotional_state": "Positive",
+    "preferred_modality": "Remote",
+    "zone": "North",
+    "location": "Santo Domingo, Dominican Republic"
+  },
+  {
+    "name": "Roberto Sánchez",
+    "stack": [
+      "Excel",
+      "Calendar Management",
+      "Bilingual",
+      "Communication"
+    ],
+    "experience_years": 3,
+    "emotional_state": "Neutral",
+    "preferred_modality": "Hybrid",
+    "zone": "US",
+    "location": "New York, USA"
+  },
+  {
+    "name": "Isabella Morales",
+    "stack": [
+      "Project Management",
+      "Excel",
+      "Data Analysis",
+      "Teams"
+    ],
+    "experience_years": 5,
+    "emotional_state": "Positive",
+    "preferred_modality": "Remote",
+    "zone": "Central",
+    "location": "Bogota, Colombia"
+  },
+  {
+    "name": "Daniel Pérez",
+    "stack": [
+      "Recruitment",
+      "Outlook",
+      "Excel",
+      "Communication"
+    ],
+    "experience_years": 2,
+    "emotional_state": "Neutral",
+    "preferred_modality": "Remote",
+    "zone": "East",
+    "location": "Lima, Peru"
+  }
+]

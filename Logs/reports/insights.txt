@@ -1,0 +1,44 @@
+================================================================================
+TRS ENGINE CORE - DATA INSIGHTS
+================================================================================
+
+Total Records: 30
+Unique Candidates: 10
+Unique Vacancies: 3
+
+--- Emotional State Distribution ---
+emotional_state
+Positive    15
+Neutral      9
+Negative     6
+
+--- Average Scores by Emotional State ---
+                 match_score   penalty  adjusted_score
+emotional_state                                       
+Negative            0.125000  0.333333       -0.208333
+Neutral             0.111111  0.433333       -0.322222
+Positive            0.066667  0.393333       -0.326667
+
+--- Top 10 Best Matches ---
+     name                         vacancy  adjusted_score emotional_state
+     Luis    Backend Node + RoR Developer            0.00         Neutral
+   Camila    Backend Node + RoR Developer           -0.05        Positive
+    Mateo    Backend Node + RoR Developer           -0.05        Negative
+      Ana            Junior Data Engineer           -0.15        Positive
+Valentina            Junior Data Engineer           -0.15         Neutral
+    Diego            Junior Data Engineer           -0.15        Negative
+    Laura            Junior Data Engineer           -0.15        Positive
+   Camila            Junior Data Engineer           -0.20        Positive
+   Camila Remote Administrative Assistant           -0.20        Positive
+    Mateo            Junior Data Engineer           -0.20        Negative
+
+--- Candidates with Negative Emotional State ---
+ name                      vacancy  adjusted_score
+Mateo Backend Node + RoR Developer           -0.05
+Diego Backend Node + RoR Developer           -0.25
+
+--- Key Recommendations ---
+1. Focus on candidates with adjusted_score > 0
+2. Provide support to candidates with Negative emotional state
+3. Review penalty factors for low-scoring matches
+4. Consider expanding job requirements to improve match rates
