@@ -1,0 +1,62 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Models (large files - download in runtime)
+Models/bert-sentiment-training/
+Models/**/checkpoint-*/
+*.safetensors
+*.bin
+*.pth
+*.ckpt
+
+# Logs and data
+Logs/
+Data/
+*.csv
+*.json
+!requirements.txt
+
+# Documentation
+*.md
+!README.md
+docs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.backup_*
+*_backup_*
+BACKUP_*/
+
+# Test files
+test_*.py
+*_test.py
+
+# Large datasets
+ML/datasets/
+ML/embeddings/
+
+# Keep essential files
+!src/
+!Modules/
+!app.py
+!Procfile
+!requirements.txt
