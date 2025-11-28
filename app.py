@@ -8,12 +8,38 @@ from pathlib import Path
 
 # Agregar src/ al path
 project_root = Path(__file__).parent
-sys.path.insert(0, str(project_root / 'src'))
+src_path = project_root / 'src'
+
+# Verificar que src/ existe
+if not src_path.exists():
+    print(f"[ERROR] src/ directory not found at {src_path}")
+    print(f"[DEBUG] Current directory: {os.getcwd()}")
+    print(f"[DEBUG] Project root: {project_root}")
+    print(f"[DEBUG] Contents of project root: {list(project_root.iterdir())}")
+    sys.exit(1)
+
+# Agregar src/ al path de Python
+sys.path.insert(0, str(src_path))
+print(f"[INFO] Added {src_path} to Python path")
+
+# Verificar que whatsapp_bot.py existe
+whatsapp_bot_path = src_path / 'whatsapp_bot.py'
+if not whatsapp_bot_path.exists():
+    print(f"[ERROR] whatsapp_bot.py not found at {whatsapp_bot_path}")
+    print(f"[DEBUG] Contents of src/: {list(src_path.iterdir())}")
+    sys.exit(1)
 
 # Importar y ejecutar el bot
-from whatsapp_bot import app
+try:
+    from whatsapp_bot import app
+    print("[INFO] Successfully imported whatsapp_bot")
+except ImportError as e:
+    print(f"[ERROR] Failed to import whatsapp_bot: {e}")
+    print(f"[DEBUG] Python path: {sys.path}")
+    sys.exit(1)
 
 if __name__ == '__main__':
     # Railway asigna PORT automáticamente
     port = int(os.environ.get('PORT', 5000))
+    print(f"[INFO] Starting Flask app on port {port}")
     app.run(host='0.0.0.0', port=port, debug=False)
